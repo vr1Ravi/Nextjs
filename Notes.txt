@@ -1,0 +1,8 @@
+* A folder or route must have page file otherwise if user try to hit the route 404 Error will be displayed.
+* Route grouping is a way of grouping a similar routes into a single folder later we can have similar layout 
+to each route.
+
+* Nextjs has two types of rendering
+1. static rendering :- pages are chached only executs single time and later if user request same page. it will be returned from cache.
+2. dynamic rendering :- Inside pages if we are dealing with apis using fetch() or something nextjs will know that this pages neeeds
+to render dynamically every single time.
