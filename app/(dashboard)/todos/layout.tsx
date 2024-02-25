@@ -1,7 +1,12 @@
-const DocsLayout = ({ children }) => {
+import NewTodoForm from "@/app/components/NewTodoForm";
+
+const DocsLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <h1>DocsLayout</h1>
+      <h1>TodoLayout</h1>
+      <div>
+        <NewTodoForm />
+      </div>
       <div>{children}</div>
     </div>
   );

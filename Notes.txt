@@ -3,6 +3,34 @@
 to each route.
 
 * Nextjs has two types of rendering
-1. static rendering :- pages are chached only executs single time and later if user request same page. it will be returned from cache.
-2. dynamic rendering :- Inside pages if we are dealing with apis using fetch() or something nextjs will know that this pages neeeds
+1. static rendering :- pages are chached only executs single time and later if user request same page.
+ it will be returned from cache.
+2. dynamic rendering :- Inside pages if we are dealing with apis using fetch() or something nextjs will know 
+that this pages neeeds
 to render dynamically every single time.
+
+* Even though route changes layout never rerenders.
+* Templates are same as layout but the only difference between them is template do rerender 
+
+* Client side rendering :- user made request server sends back
+html, css, js and user's machine executes all js and html gets hydrated
+
+* Server side side rendering :- user made request, initial rendering of 
+page occur at server and sent to user and at backside js is executing
+which will automatically take the control over page.(initial 
+render on server and execution on user's machine)
+
+* React server component :- execution on component happens on server
+ 
+* we can use client component inside serve component and 
+vice versa but the only caveat is we can't pass non serializable
+props 
+
+* functions, dates, recursive things can't be serialized
+
+* ORM :- ORM frameworks provide a way to interact with a database in an object-oriented manner, 
+where database tables are represented as classes, and rows in those tables are represented as objects.
+This abstraction allows developers to work with databases using familiar object-oriented concepts, such as classes, 
+objects, and inheritance, without needing to write complex SQL queries.
+
+* Prisma Client, on the other hand, is the actual library that you use in your Node.js application to interact with your database
