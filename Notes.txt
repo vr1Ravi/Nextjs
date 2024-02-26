@@ -34,3 +34,6 @@ This abstraction allows developers to work with databases using familiar object-
 objects, and inheritance, without needing to write complex SQL queries.
 
 * Prisma Client, on the other hand, is the actual library that you use in your Node.js application to interact with your database
+
+* Server Actions :-  Ability to call a function on server without setting up route is known as server
+actions. Its same as Api but in case of hitting api we do need to define route
